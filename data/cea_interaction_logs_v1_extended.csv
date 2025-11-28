@@ -1,0 +1,2 @@
+session_id,user_id,condition_consent,condition_explanation,condition_appeal,step,action,screen_outcome,appeal_offered,appeal_clicked
+# (Extend later with more synthetic rows; this file marks the richer log schema.)
