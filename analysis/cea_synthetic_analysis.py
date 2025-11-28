@@ -22,3 +22,8 @@ summary = (
 
 print("=== Appeal funnel by condition (synthetic) ===")
 print(summary)
+
+print("\\n=== Average recourse score by structural disadvantage flag ===")
+print(
+    panel.groupby("flag_structurally_disadvantaged")["recourse_score"].mean()
+)

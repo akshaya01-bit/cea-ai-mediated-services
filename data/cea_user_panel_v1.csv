@@ -1,4 +1,4 @@
-user_id,segment,prior_support_use,trust_score_self,understanding_score,fairness_score,recourse_score
-u001,young_single,low,3,2,2,1
-u002,parent_medium,medium,4,4,4,4
-u003,older_single,low,2,3,3,2
+user_id,segment,prior_support_use,trust_score_self,understanding_score,fairness_score,recourse_score,flag_structurally_disadvantaged
+u001,young_single,low,3,2,2,1,1
+u002,parent_medium,medium,4,4,4,4,0
+u003,older_single,low,2,3,3,2,1
