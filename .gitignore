@@ -1,0 +1,19 @@
+# OS / editor junk
+.DS_Store
+*.swp
+
+# Python / R cache
+__pycache__/
+.Rhistory
+.Rproj.user
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build artefacts
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg

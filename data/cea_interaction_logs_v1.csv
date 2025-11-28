@@ -1,0 +1,10 @@
+session_id,user_id,condition_consent,condition_explanation,condition_appeal,step,action,screen_outcome,appeal_offered,appeal_clicked
+s001,u001,brief,outcome_only,buried,1,request_started,,,
+s001,u001,brief,outcome_only,buried,2,consent_shown,accepted,,,
+s001,u001,brief,outcome_only,buried,3,decision_shown,ineligible,yes,no
+s002,u002,detailed,step_by_step,clear,1,request_started,,,
+s002,u002,detailed,step_by_step,clear,2,consent_shown,accepted,,,
+s002,u002,detailed,step_by_step,clear,3,decision_shown,ineligible,yes,yes
+s003,u003,control,outcome_only,clear,1,request_started,,,
+s003,u003,control,outcome_only,clear,2,consent_shown,skipped,,,
+s003,u003,control,outcome_only,clear,3,decision_shown,eligible,no,
