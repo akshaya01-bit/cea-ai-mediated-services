@@ -18,3 +18,17 @@ AI-mediated benefits-eligibility service, using only synthetic logs.
 - `figures/` – diagrams such as the CEA flow figure.
 
 All datasets here are **fully synthetic and generated for illustration only**.
+
+## Version 1 artefact status
+
+Release **v1.5.0** freezes the first synthetic artefact package for this concept paper.
+It includes:
+
+- CEA paper PDF (`docs/Consent_Explanation_Appeals_AIMediatedServices_v1.pdf`)
+- Flow figure (`figures/cea_flow.pdf`)
+- Synthetic interaction logs and user panels (`data/`)
+- Simple analysis and merge scripts (`analysis/`)
+- Design + milestone notes (`design/`)
+
+These materials are suitable for sharing as a transparency / reproducibility
+companion, while containing no real user data.
